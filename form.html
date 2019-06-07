@@ -1,0 +1,250 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>:: Login ::</title>
+        <!-- Ini Link CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <style>
+            html{
+                background: linear-gradient(45deg, #318ced, #ed31ab);
+                background-repeat: no-repeat;
+                overflow: hidden;
+            }
+ 
+            .container{
+                position: relative;
+            }
+ 
+            .box-login{
+                width: 350px;
+                height: 500px;
+                margin-top: 5%;
+                margin-left: 33%;
+                position: absolute;
+                background: #eeefff;
+                /*border-bottom-right-radius: 20%;*/
+                /*border-bottom-left-radius: 20%;*/
+                /*border-top-right-radius: 20%;*/
+                overflow: hidden;
+                box-shadow: 2px 2px 40px rgba(0,0,0,.7);
+                border-radius: 10px;
+                transition: .5s;
+            }
+ 
+            .box-login:hover{
+                box-shadow: 2px 2px 10px rgba(0,0,0,.7);
+            }
+ 
+            input{
+                display: block;
+                width: 300px;
+                height: 50px;
+                border: none;
+                outline: none;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 2px solid lightskyblue;
+                padding-top: 10px;
+                margin: auto;
+                background: transparent;
+                z-index: 120;
+            }
+ 
+            ::placeholder{
+                color: #333;
+                font-family: 'Montserrat', sans-serif;
+            }
+ 
+            button{
+                width: 300px;
+                height: 30px;
+                border-radius: 50px;
+                border: none;
+                background: linear-gradient(45deg, #318ced, #ed31ab);
+                outline: none;
+                color: white;
+                margin-left: 7%;
+                z-index: 120;
+            }
+ 
+            .login-with ul li{
+                display: inline;
+                letter-spacing: 15px;
+            }
+ 
+            .login-with i{
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 25px;
+            }
+ 
+            .login-with{
+                width: 50%;
+                margin: auto;
+            }
+ 
+            .box-1,.box-2,.box-3{
+                width: 400px;
+                height: 400px;
+                position: absolute;
+            }
+ 
+            .box-1{
+                margin-left: -20%;
+                transform: rotate(-130deg);
+                background: rgba(255,255,255,.5);
+                margin-top: -10%;
+            }
+ 
+            .box-2{
+                background: rgba(255,255,255,.75);
+                transform: rotate(-130deg);
+                margin-top: 35%;
+            }
+ 
+            .box-3{
+                transform: rotate(-130deg);
+                background: rgba(0,0,0,.2);
+                margin-left: 80%;
+                margin-top: 15%;
+            }html{
+                background: linear-gradient(45deg, #318ced, #ed31ab);
+                background-repeat: no-repeat;
+                overflow: hidden;
+            }
+ 
+            .container{
+                position: relative;
+            }
+ 
+            .box-login{
+                width: 350px;
+                height: 500px;
+                margin-top: 5%;
+                margin-left: 33%;
+                position: absolute;
+                background: #eeefff;
+                /*border-bottom-right-radius: 20%;*/
+                /*border-bottom-left-radius: 20%;*/
+                /*border-top-right-radius: 20%;*/
+                overflow: hidden;
+                box-shadow: 2px 2px 40px rgba(0,0,0,.7);
+                border-radius: 10px;
+                transition: .5s;
+            }
+ 
+            .box-login:hover{
+                box-shadow: 2px 2px 10px rgba(0,0,0,.7);
+            }
+ 
+            input{
+                display: block;
+                width: 300px;
+                height: 50px;
+                border: none;
+                outline: none;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 2px solid lightskyblue;
+                padding-top: 10px;
+                margin: auto;
+                background: transparent;
+                z-index: 120;
+            }
+ 
+            ::placeholder{
+                color: #333;
+                font-family: 'Montserrat', sans-serif;
+            }
+ 
+            button{
+                width: 300px;
+                height: 30px;
+                border-radius: 50px;
+                border: none;
+                background: linear-gradient(45deg, #318ced, #ed31ab);
+                outline: none;
+                color: white;
+                margin-left: 7%;
+                z-index: 120;
+            }
+ 
+            .login-with ul li{
+                display: inline;
+                letter-spacing: 15px;
+            }
+ 
+            .login-with i{
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 25px;
+            }
+ 
+            .login-with{
+                width: 50%;
+                margin: auto;
+            }
+ 
+            .box-1,.box-2,.box-3{
+                width: 400px;
+                height: 400px;
+                position: absolute;
+            }
+ 
+            .box-1{
+                margin-left: -20%;
+                transform: rotate(-130deg);
+                background: rgba(255,255,255,.5);
+                margin-top: -10%;
+            }
+ 
+            .box-2{
+                background: rgba(255,255,255,.75);
+                transform: rotate(-130deg);
+                margin-top: 35%;
+            }
+ 
+            .box-3{
+                transform: rotate(-130deg);
+                background: rgba(0,0,0,.2);
+                margin-left: 80%;
+                margin-top: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+            <div class="box-3"></div>
+            <div class="box-login">
+                <br><br>
+                <h1 style="text-align: center; font-family: 'Montserrat', sans-serif;">LOGIN</h1>
+                <input type="text" placeholder="Username" name="username">
+                <br>
+                <input type="password" placeholder="Password" name="password">
+                <br>
+                <p style="margin-left: 180px; font-family: 'Montserrat', sans-serif;">Forgot Password ?</p>
+                <button type="button">Login</button>
+                <div class="login-with">
+                    <ul>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-google"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                    </ul>
+                </div>
+                <p style="text-align: center; font-family: 'Montserrat', sans-serif;">Sign Up</p>
+            </div>
+        </div>
+    </body>
+</html>
